@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TransCar: Unleashing the Future of Car Ownership Transfers with NextJS and Solidity Blockchain
 
-## Getting Started
+## Introduction
+TransCar aims to revolutionize the current car ownership transfer processes, which are often inefficient and time-consuming. By leveraging NextJS and Solidity Blockchain, TransCar offers a decentralized application that allows users to securely transfer car ownership through smart contracts. Say goodbye to paperwork and long waiting times!
 
-First, run the development server:
+## Problem Statement
+Current car ownership transfer processes are inefficient and time-consuming.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## How TransCar Works
+TransCar is a decentralized application built on Next.js and Solidity. Here's a step-by-step breakdown of how it works:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Users create a contract by providing the buyer's wallet address, third-party wallet address, the price in "MATIC," and the car brand.
+2. Once created, the contract is sent to both the buyer and the owner (seller).
+3. The buyer confirms the payment, and the owner confirms the delivery of car keys.
+4. The third party verifies the contract before sending the payment to the owner.
+5. Contracts can be canceled by both the buyer and the owner if neither the payment nor the keys have been delivered yet. In such cases, the owner will receive their money back.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Benefits of TransCar
+TransCar offers several benefits:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Efficiency: Transfer ownership in a fraction of the time compared to traditional methods.
+- Transparency: Immutable records on the blockchain ensure transparency and accountability.
+- Security: Blockchain technology prevents fraud and provides a secure transfer process.
 
-## Learn More
+## NextJS and Solidity Blockchain
+TransCar utilizes NextJS for the user-friendly frontend, providing a seamless experience. Solidity Blockchain ensures secure and transparent ownership transfers by leveraging smart contracts and decentralized technology.
 
-To learn more about Next.js, take a look at the following resources:
+## Website
+You can experience the TransCar project by visiting the website: [TransCar](https://car-blockchain.vercel.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Conclusion
+TransCar simplifies, streamlines, and future-proofs car ownership transfers. With efficient processes, transparency, and security, TransCar offers the next generation of car ownership experience.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Authors
+TransCar was created by:
+- Eliran Ashtamker
+- Omer Attias
+- Nadav Ishai
